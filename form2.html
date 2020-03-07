@@ -1,0 +1,174 @@
+<html> 
+	<head>
+		<title>Xavier Int'l College</title>
+		<style>
+			body {
+				box-sizing: border-box;
+				width:94%;
+				margin: 0px auto;
+			}
+
+			header{
+				height:150px;
+			}
+
+			#logo {
+				position: relative;
+				display:inline-block;
+				width: 10%;
+				box-sizing: border-box;
+
+			}
+
+			#logo img{
+				height: 100%;
+				width: 100%;
+			}
+
+			#headbar {
+				position: relative;
+				float: right;
+				font-size: larger;
+				background-image: url("assets/banner.gif");
+				background-size:100% 100%;
+				background-repeat: no-repeat;
+				width:90%;
+				height: 100%;
+				box-sizing: border-box;
+			}
+
+		   nav {
+			   background-color: #86caec;
+			   height:40px;
+			   width:100%;
+		   }
+
+		   #menu ul {
+			   margin:auto 0px;
+			   height:100%;
+			   padding-top: 10px;
+		   }
+
+		   #menu li{
+			   list-style: none;
+			   display: inline; 
+			   padding:0px 10px;
+			   margin:10px 20px;
+			   font-size:20px ;
+			   background-color:rgb(122, 161, 221);
+		   }
+
+		   #main{
+			   position: relative;
+			   height: 70%;
+			   padding: 10px;
+			   background-color: rgb(107, 107, 219);
+		   }
+
+		   #content{
+			   box-sizing: border-box;
+			   position: relative;
+			   height: 100%;
+			   display: inline-block;
+			   width: 70%;
+			   background-color:#d7e6ee;
+			   padding: 20px 30px;
+			   overflow:scroll;
+		   }
+				
+		   #intro h3{
+			   margin-top: 0px ;
+		   }
+		   
+		   #sidebar{
+			   box-sizing: border-box;
+			   float:right;
+			   position: relative;
+			   height: 100%;
+			   background-color: rgb(25, 65, 139);
+			   width: 30%;
+
+		   }
+
+		   #sidebar img{
+			   box-sizing: border-box;
+			   width: 100%;
+			   height: 50%;
+			   padding: 5px;
+		   }
+
+
+
+		   footer {
+			   height: 200px;
+			   background-color:  #86caec;
+		   }
+
+		   
+		   
+	   </style>
+	</head>
+	
+	<body> 
+		<header>
+			<div id="logo"> 
+				<img src="assets/logo1.png" alt="College Logo">
+			</div>
+			<div id="headbar">
+				<h2></h2>
+			</div>
+		</header>
+		<nav> 
+			<div id="menu"> 
+				<ul> 
+					<li><a href="index.html"> Home </a></li> 
+				
+					<li>About</li>
+					<li>Notice</li>
+					<li>Gallery</li>
+                    <li> <a href="Form2.html" target="blank">Admission Form </a></li>
+                    <li> <a href="table.html" target="blank">Admission Info </a> </li>
+				</ul>
+
+			</div>
+		</nav>
+		<div id="main">
+			<div id="content">
+				<h1> Fill up the form below to get Admission </h1>
+                <h4 style="color:red;"> Note:- Box with (*) sign are compulsary<h4>
+                <form> 
+                First name*: <input type="text" name="firstname"> <br> <br>
+                Last name*: <input type="text" name="lastname"> <Br> <br>
+                SEE GPA*:<input type="number" name="phone_number" > <br> <br>
+                Contact No*: <input type="number" name="phone_number" > <br> <br>
+                Email: <input type="email" name="email_adress" > <br> <br>
+                </form>
+                Gender*
+                <form>
+                <input type="radio" name="sex" value="male" > Male <br> <br>
+                <input type="radio" name="sex" value="female" > Female <br> <br>
+                <input type="radio" name="sex" value="others" > Others <br> <br>
+                </form>
+                Faculty*
+                <form action=" " >
+                <select name="stream">
+                <option value="Science (Physics)">Science (Physics)</option>
+                <option value="Science (Biology)"> Science (Biology) </option>
+                <option value="Management (Busines Studies)"> Management (Business Studies)</option>
+                <option value="Management (Computer)"> Management (Computer)</option>
+                <option value="Humanities"> Humanities </option>
+                <option value="Law"> Law </option>
+                </select> <br> <br>
+                <input name="btn_send" size="100"  type="button" value="Submit">
+                </form>
+			</div>
+			<div id="sidebar">
+				<img src="assets/A-level.png" alt="a-level">
+				<img src="assets/Master.png" alt="master">
+			</div>
+		</div>
+		<footer>
+
+		</footer>
+	</body>
+</html>
